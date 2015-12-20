@@ -77,8 +77,12 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Image\" />
+    <Content Include="Image\input_chihaya.png" />
+    <Content Include="Image\input_takane.jpg" />
+    <Content Include="Image\output_chihaya.png" />
+    <Content Include="Image\out_takane.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
